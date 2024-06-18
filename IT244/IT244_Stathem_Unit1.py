@@ -17,6 +17,7 @@ the code above developed after the code below and took several
 testing steps of adding functions to the line to achieve the final
 result 
 """
+"""
 string1 =string1.lstrip()
 string2 =string2.lstrip()
 string3 =string3.lstrip()
@@ -24,6 +25,8 @@ string1 =string1.replace("8", "9")
 concatenatedString = string1 + string3 + string2
 # print(concatenatedString)
 """
+"""
 made the command above a comment to prevent double printing for
 the final submission.
+ETA Commented out the block to reduce processing load.
 """
