@@ -1,3 +1,6 @@
+# creating a lists and dictionaries with keys
+# also used .append and .sort to add a new flavor and organize the list
+
 flavorList = ['Chocolate','Vanilla','Strawberry','Mango','Dark Chocolate','Cookies & Cream', 'Mint Chocolate']
 priceSize = {'S':'$1.75','M':'$2.75','L':'$3:50'}
 descrSize = {'S':'Simply Small','M':'Modern Medium','L':'Legendary Large'}
@@ -12,6 +15,6 @@ for element in flavorList:
 print("\nOur available sizes are S, M, or L\n")
 userFlavor = int(input("Please select a flavor #: "))
 userFlavor = userFlavor - 1
-userCone = input("Please select a cone size: ").upper()
+userCone = input("Please select a cone size: ").upper() # normalizing the data for processing, elected to use capitals in the 
 print("\nYour total is " + priceSize[userCone])
 print("Your " + descrSize[userCone] + " cone of " + flavorList[userFlavor] + " will arrive shortly. \n\nThank you for shopping at the Ice Ice Creamery!")
