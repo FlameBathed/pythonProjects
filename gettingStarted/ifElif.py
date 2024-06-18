@@ -1,3 +1,5 @@
+#This code was originally written in Python 2.7 (?) during the course I realized that the Python package installed on my PC was incorrect. Adapted for the assignment and then installed Python 3 to work with in the remaining projects.
+
 # coding=utf-8
 print("Your color choices are red, blue, green, white or yellow")
 userColor = raw_input("Enter color: ").lower()
